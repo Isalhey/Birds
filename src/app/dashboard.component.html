@@ -1,0 +1,14 @@
+<!-- Layout for the dashboard component -->
+
+  <h1>Top Birds</h1>
+  <hr>
+    <div class="grid grid-pad">
+      <a *ngFor="let bird of birds"  [routerLink]="['/detail', bird.id]"  class="col-1-4">
+        <div class="module">
+          <h2 class="module title">{{bird.name}}</h2>
+        </div>
+      </a>
+    </div>
+  <bird-search></bird-search>
+
+

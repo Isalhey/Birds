@@ -1,0 +1,25 @@
+<h1>My Birds</h1>
+<hr>
+<!-- Add birds -->
+<div class="birdsbox">
+  <label>Bird name :</label> <input id="add-box" #birdName ngModel maxlength="15"/>
+  <button (click)="add(birdName.value); birdName.value=''">Add</button>
+</div>
+<!-- Listing of birds -->
+<ul class="birds">
+    <!-- Listing down of birds -->
+    <li *ngFor="let bird of birds"
+    [class.selected]="bird === selectedBird"
+    (click)="onSelect(bird)">
+    <span class="badge">{{bird.id}}</span> 
+    <span class="mtext">{{bird.name}}</span>
+    <button class="delete" (click)="delete(bird); $event.stopPropagation()">x</button>
+    </li>
+</ul>
+<!-- For the bird detail -->
+<div *ngIf="selectedBird">
+    <h2>
+    {{selectedBird.name | uppercase}} is my Bird
+    </h2>
+    <button (click)="gotoDetail()">View Details</button>
+</div>

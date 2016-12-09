@@ -1,0 +1,13 @@
+<!-- Layout for the bird-search component -->
+
+<div id="search-component">
+  <h2>Search for Birds</h2>
+  <input #searchBox id="search-box" (keyup)="search(searchBox.value)" />
+  <div>
+    <!-- Dropdown list of likely birds from the birds list -->
+    <div *ngFor="let bird of birds | async"
+         (click)="gotoDetail(bird)" class="search-result" >
+      {{bird.name}}
+    </div>
+  </div>
+</div>

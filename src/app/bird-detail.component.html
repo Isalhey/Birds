@@ -1,0 +1,13 @@
+<!-- Bird detail HTML layout -->
+
+<!-- if detail is provided for a specific bird then display the detail -->
+<div *ngIf="bird">
+<h2>{{bird.name}} details!</h2>
+<div><label>id: </label>{{bird.id}}</div>
+<div>
+    <label>name: </label>
+    <input [(ngModel)]="bird.name" placeholder="name" ngModel maxlength="15"/>
+</div>
+<button class="back" (click)="goBack()">Back</button>
+<button class="save" (click)="save()">Save</button>
+</div>

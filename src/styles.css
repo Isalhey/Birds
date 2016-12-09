@@ -1,0 +1,68 @@
+/* Master Styles */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline; }
+  
+/*== GLOBAL  ==*/
+body {
+	font-family:Helvetica, sans-serif;
+	font-size:16px;
+	margin:0 auto;
+	padding:0;
+	line-height:20px;
+}
+* {
+	margin:0;
+	padding:0;
+}
+*:focus {
+	outline:none; /* removes ugly dotted border but may make template more unsuable, up to you
+					 if you want to keep it! */
+}
+form{margin:0; padding:0;}
+hr {
+	border-width:0;
+	height:1px;
+	line-height:0;
+	margin:10px 0px;
+	page-break-after:always;
+	text-align:center;
+	width:100%;
+	clear:both;
+}
+
+.formbreak{margin-bottom:10px;clear:both;}
+
+/*** END OF GLOBAL  ***/
+
+
+h1, h2 {margin-bottom:20px;}
+h3, h4, h5{margin-bottom:18px;}
+h1	{font-size:24px;}
+h2	{font-size:22px;}
+h3	{font-size:18px;}
+h4	{font-size:15px;}
+h5	{font-size:14px;}
+h6	{font-size:13px;}
+h1, h2, h3, h4, h5, h6{ font-weight:400; line-height:normal; font-family:'Oswald', sans-serif, arial;}
+.titleRegular{font-weight:400}
+.titleSemibold{font-weight:600}
+.titleBold{font-weight:400}
+.titleUppercase{text-transform:uppercase}
+.titleRegularItalic{font-style:italic}
+.titleSection{margin-bottom:30px;}
+.titleSectionSmall{margin:15px 0;}
+.pagetitle{font-family: 'Oswald', sans-serif, arial; font-weight:700; font-size:40px; line-height:55px; margin-bottom:0px; text-transform:uppercase }
+.colorlight{color:#999;}
+.underlined{text-decoration:underline;}
+
+#container {margin:0; padding:0; min-height:800px; background-color:#eee;}
+#subcontainer {margin:0 auto; padding:0; min-width:400px; min-height:200px;  max-width:1000px; background-color: #FFF;}
+#content {margin:0; padding:25px;}
+#footer {display:block; height:50px; padding-top:20px; border-top:1px solid #ccc; text-align:center;}
+
+hr {display:block; margin-top:0.5em; margin-bottom:0.5em; margin-left:auto; margin-right:auto; border-style:inset; border-width:1px;} 

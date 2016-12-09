@@ -1,0 +1,40 @@
+<!-- Html for the main app component -->
+<!-- Provides selector router-outlet for the other componenets -->
+  
+<div id="container">
+
+      <div id="navbar">
+        <ul class="topnav">
+          <li class="title">{{title}}</li>
+          <! -- defined router links -->
+          <li><a routerLink="/dashboard" routerLinkActive="active">Dashboard</a></li>
+          <li><a routerLink="/birds" routerLinkActive="active">Birds</a></li>
+          <li><a routerLink="/search" routerLinkActive="active">Search</a></li>  
+        </ul>
+      </div>
+    
+    <div id="subcontainer">
+      <div id="content">
+        <router-outlet></router-outlet>
+      </div>
+
+      
+      <div id="footer">Digital Design - MIT &copy; 2016</div>
+
+    </div>
+
+    
+
+</div>
+
+
+ 
+
+    
+
+
+
+
+
+
+

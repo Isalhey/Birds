@@ -1,0 +1,45 @@
+/* Styling for birds detail */
+
+label {
+  display: inline-block;
+  width: 3em;
+  margin: .5em 0;
+  color: #607D8B;
+  font-weight: bold;
+}
+input {
+  height: 2em;
+  font-size: 1em;
+  padding-left: .4em;
+}
+.back {
+  font-family: Arial;
+  font-size:18px;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  margin:10px 0 0 50px;
+  padding: 5px 20px;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.save {
+  font-family: Arial;
+  font-size:18px;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  margin:10px 0 0 10px;
+  padding: 5px 20px;
+  cursor: pointer;
+  cursor: hand;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button:disabled {
+  background-color: #eee;
+  color: #ccc; 
+  cursor: auto;
+}
+
+

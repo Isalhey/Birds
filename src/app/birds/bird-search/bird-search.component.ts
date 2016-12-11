@@ -12,7 +12,7 @@ import { Observable }        from 'rxjs/Observable';
 import { Subject }           from 'rxjs/Subject';
 import { BirdSearchService } from './bird-search.service';
 
-import { Bird } from './bird';
+import { Bird } from '../bird';
 
 @Component({
   selector: 'bird-search',

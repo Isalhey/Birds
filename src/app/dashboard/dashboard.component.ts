@@ -7,8 +7,8 @@
 
 import { Component, OnInit } from '@angular/core';
 
-import { Bird } from './bird';
-import { BirdService } from './bird.service';
+import { Bird } from '../birds/bird';
+import { BirdService } from '../birds/bird.service';
 
 @Component({
     selector: 'my-dashboard',

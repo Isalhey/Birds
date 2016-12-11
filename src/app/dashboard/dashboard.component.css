@@ -30,10 +30,15 @@ h4 {
 }
 .module {
   color: #eee;
-  height: 150px;
-  min-width:120px;
-  background: #0086b3 url("public/img/bird.png") no-repeat center bottom;
+  height: 170px;
+  min-width:160px;
+  background: #001133 url("public/img/NoImage.png") no-repeat center bottom;
 }
+
+.module.Parrot {background: #001133 url("public/img/Parrot.png") no-repeat center bottom; }
+.module.Penguin{background: #001133  url("public/img/Penguin.png") no-repeat center bottom; }
+.module.Owl {background: #001133  url("public/img/Owl.png") no-repeat center bottom; }
+.module.Crane {background: #001133  url("public/img/Crane.png") no-repeat center bottom; }
 
 
 .module .title {
@@ -42,25 +47,30 @@ h4 {
   line-height:2em;
   margin:0;
   height:40px;
-  background:#607d8b;
-  opacity:0.9;
+  background:#00004d;
 }
 .module:hover {
   background-color: #EEE;
   cursor: pointer;
-  color: #607d8b;
+  color:#ccc;
 }
 .grid-pad {
-  padding: 10px 0;
+  padding: 10px 0 10px 10px;
 }
 .grid-pad > [class*='col-']:last-of-type {
-  padding-right: 20px;
+  padding-right: 10px;
 }
 @media (max-width: 600px) {
   .module .title {height:30px;}
   .module {
     font-size: 16px;
-    max-height: 75px; }
+    max-height: 75px;
+    background-image: none;
+   }
+   .module.Parrot {background-image: none;}
+   .module.Penguin {background-image: none;}
+   .module.Owl {background-image: none;}
+   .module.Crane {background-image: none;}
 }
 @media (max-width: 1024px) {
   .grid {

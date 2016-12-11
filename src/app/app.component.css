@@ -7,7 +7,7 @@ ul.topnav {
     margin: 0 auto;
     padding: 0;
     overflow: hidden;
-    background-color: #0086b3;
+    background-color: #000033;
 }
 
 ul.topnav li {float: left;}
@@ -22,7 +22,7 @@ ul.topnav li a {
 
 ul.topnav .title {
     display: block;
-    background: #666;
+    background: #333;
     color: white;
     font-weight: bold;
     text-align: center;

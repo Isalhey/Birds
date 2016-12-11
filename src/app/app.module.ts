@@ -19,11 +19,11 @@ import { InMemoryDataService }  from './in-memory-data.service';
 
 // Imports for custom components
 import { AppComponent }         from './app.component';
-import { DashboardComponent }   from './dashboard.component';
-import { BirdDetailComponent }  from './bird-detail.component';
-import { BirdsComponent }       from './birds.component';
-import { BirdService }          from './bird.service';
-import { BirdSearchComponent }  from './bird-search.component';
+import { DashboardComponent }   from './dashboard/dashboard.component';
+import { BirdDetailComponent }  from './birds/bird-detail/bird-detail.component';
+import { BirdsComponent }       from './birds/birds.component';
+import { BirdService }          from './birds/bird.service';
+import { BirdSearchComponent }  from './birds/bird-search/bird-search.component';
 import { AppRoutingModule }     from './app-routing.module';
 
 /**

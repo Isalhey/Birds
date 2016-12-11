@@ -10,7 +10,7 @@ import { Http, Response } from '@angular/http';
 
 import { Observable } from 'rxjs';
 
-import { Bird }       from './bird';
+import { Bird }       from '../bird';
 
 @Injectable()
 export class BirdSearchService {

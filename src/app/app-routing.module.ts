@@ -10,10 +10,10 @@
 import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { DashboardComponent }   from './dashboard.component';
-import { BirdsComponent }       from './birds.component';
-import { BirdDetailComponent }       from './bird-detail.component';
-import { BirdSearchComponent }       from './bird-search.component';
+import { DashboardComponent }   from './dashboard/dashboard.component';
+import { BirdsComponent }       from './birds/birds.component';
+import { BirdDetailComponent }       from './birds/bird-detail/bird-detail.component';
+import { BirdSearchComponent }       from './birds/bird-search/bird-search.component';
 
 //Pulls the routes into a variable routes
 const routes: Routes = [

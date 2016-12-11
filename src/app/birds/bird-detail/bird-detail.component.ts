@@ -16,8 +16,8 @@ import { Location }                 from '@angular/common';
 import 'rxjs/add/operator/switchMap';
 
 
-import { BirdService } from './bird.service';
-import { Bird } from './bird';
+import { BirdService } from '../bird.service';
+import { Bird } from '../bird';
 
 @Component({
   selector: 'my-bird-detail',
